@@ -1,0 +1,268 @@
+{
+    "DisplayConfig": [
+        {
+            "IsNonNVIDIAAdapter": 0,
+            "reserved": 0,
+            "sourceId": 0,
+            "sourceModeInfo": {
+                "bGDIPrimary": 1,
+                "bSLIFocus": 0,
+                "colorFormat": "A8R8G8B8",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "reserved": 0,
+                "resolution": {
+                    "colorDepth": 32,
+                    "height": 1080,
+                    "width": 1920
+                },
+                "spanningOrientation": "Unknown"
+            },
+            "targetInfo": [
+                {
+                    "details": {
+                        "connector": "DisplayPort",
+                        "disableVirtualModeSupport": 0,
+                        "interlaced": 0,
+                        "isPanAndScanTarget": 0,
+                        "isPreferredUnscaledTarget": 0,
+                        "primary": 0,
+                        "refreshRate1K": 60000,
+                        "reserved": 0,
+                        "rotation": "0",
+                        "scaling": "ScalingOnGPU AspectRatio"
+                    },
+                    "displayId": 2147881093,
+                    "targetId": 0
+                }
+            ],
+            "targetInfoCount": 1
+        }
+    ],
+    "DisplayHandles": [
+        {
+            "AssociatedNvidiaDisplayName": "\\\\.\\DISPLAY1",
+            "NvDisplayHandle": 3724541953,
+            "associatedDisplayOutputId": 16384,
+            "displayId": 2147881093
+        }
+    ],
+    "DriverAndBranchVersion": {
+        "branchVersion": "r510_00",
+        "driverVersion": 51312
+    },
+    "GPUs": [
+        {
+            "Displays": [
+                {
+                    "NV_COLOR_DATA": {
+                        "NV_COLOR_CMD_GET": {
+                            "bpc": "8-Bit",
+                            "cmd": "Get",
+                            "colorFormat": "RGB",
+                            "colorimetry": "RGB",
+                            "dynamicRange": "VESA"
+                        },
+                        "NV_COLOR_CMD_GET_DEFAULT": {
+                            "bpc": "8-Bit",
+                            "cmd": "Default",
+                            "colorFormat": "RGB",
+                            "colorimetry": "RGB",
+                            "dynamicRange": "VESA"
+                        },
+                        "NV_COLOR_CMD_IS_SUPPORTED_COLOR": {
+                            "10-Bit": {
+                                "RGB": [
+                                    "VESA",
+                                    "CEA"
+                                ],
+                                "YUV422": [
+                                    "CEA"
+                                ],
+                                "YUV444": [
+                                    "CEA"
+                                ]
+                            },
+                            "12-Bit": {
+                                "RGB": [
+                                    "VESA",
+                                    "CEA"
+                                ],
+                                "YUV422": [
+                                    "CEA"
+                                ],
+                                "YUV444": [
+                                    "CEA"
+                                ]
+                            },
+                            "6-Bit": {
+                                "RGB": [
+                                    "VESA",
+                                    "CEA"
+                                ],
+                                "YUV422": [
+                                    "CEA"
+                                ],
+                                "YUV444": [
+                                    "CEA"
+                                ]
+                            },
+                            "8-Bit": {
+                                "RGB": [
+                                    "VESA",
+                                    "CEA"
+                                ],
+                                "YUV422": [
+                                    "CEA"
+                                ],
+                                "YUV444": [
+                                    "CEA"
+                                ]
+                            }
+                        }
+                    },
+                    "NV_EDID": [
+                        {
+                            "EDID_Data": "00ffffffffffff0005311c01010000000113010380000082ee2081a0524b96250f4e52000000d1c00101010101010101010101010101023a801871382d40582c450020c23100001e000000ff00300a2020202020202020202020000000fd002d41145011000a202020202020000000fc004149512d4456582d49502d323800490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                            "edidId": 0,
+                            "offset": 0,
+                            "sizeofEDID": 128
+                        }
+                    ],
+                    "NV_GPU_CONNECTOR_INFO_EX": {
+                        "connectorData": [
+                            {
+                                "locationIndex": 0,
+                                "type": "DisplayPort"
+                            }
+                        ],
+                        "connectorPlatform": 0,
+                        "dongleType": "Active DisplayPort to HDMI"
+                    },
+                    "NV_GPU_DISPLAYIDS": {
+                        "connectorType": "DisplayPort",
+                        "displayId": 2147881093,
+                        "isActive": 1,
+                        "isCluster": 0,
+                        "isConnected": 1,
+                        "isDynamic": 0,
+                        "isMultiStreamRootNode": 0,
+                        "isOSVisible": 1,
+                        "isPhysicallyConnected": 1,
+                        "isWFD": 0
+                    },
+                    "NV_HDR_CAPABILITIES": {
+                        "display_data.desired_content_max_frame_average_luminance": 0,
+                        "display_data.desired_content_max_luminance": 0,
+                        "display_data.desired_content_min_luminance": 0,
+                        "display_data.displayPrimary_x0": 31250,
+                        "display_data.displayPrimary_x1": 14648,
+                        "display_data.displayPrimary_x2": 7324,
+                        "display_data.displayPrimary_y0": 16113,
+                        "display_data.displayPrimary_y1": 29296,
+                        "display_data.displayPrimary_y2": 2929,
+                        "display_data.displayWhitePoint_x": 15234,
+                        "display_data.displayWhitePoint_y": 16064,
+                        "driverExpandDefaultHdrParameters": 0,
+                        "isEdrSupported": 0,
+                        "isST2084EotfSupported": 0,
+                        "isTraditionalHdrGammaSupported": 0,
+                        "isTraditionalSdrGammaSupported": 0,
+                        "reserved": 0,
+                        "static_metadata_descriptor_id": 0
+                    },
+                    "NV_HDR_COLOR_DATA": {
+                        "displayPrimary_x0": 0,
+                        "displayPrimary_x1": 0,
+                        "displayPrimary_x2": 0,
+                        "displayPrimary_y0": 0,
+                        "displayPrimary_y1": 0,
+                        "displayPrimary_y2": 0,
+                        "displayWhitePoint_x": 0,
+                        "displayWhitePoint_y": 0,
+                        "hdrMode": "Off",
+                        "max_content_light_level": 0,
+                        "max_display_mastering_luminance": 0,
+                        "max_frame_average_light_level": 0,
+                        "min_display_mastering_luminance": 0
+                    }
+                }
+            ],
+            "NvPhysicalGpuHandle": 6144,
+            "busId": 24,
+            "busSlotId": 0,
+            "fullName": "NVIDIA RTX A6000",
+            "vbiosVersion": "94.02.5c.00.02"
+        }
+    ],
+    "SyncDevices": [
+        {
+            "GPUs": [
+                {
+                    "NV_GSYNC_GPU": {
+                        "connector": "Tertiary",
+                        "hPhysicalGpu": 6144,
+                        "hProxyPhysicalGpu": 0,
+                        "isSynced": 1,
+                        "reserved": 0
+                    },
+                    "NV_GSYNC_STATUS": {
+                        "bIsStereoSynced": 1,
+                        "bIsSyncSignalAvailable": 1,
+                        "bIsSynced": 1
+                    }
+                }
+            ],
+            "NV_GSYNC_CAPABILITIES": {
+                "boardId": "P2061",
+                "capFlags": 3221225474,
+                "revision": 2
+            },
+            "NV_GSYNC_CONTROL_PARAMS": {
+                "interlaceMode": 0,
+                "interval": 0,
+                "polarity": "FallingEdge",
+                "reserved": 0,
+                "source": "HouseSync",
+                "startupDelay": {
+                    "maxLines": 1012,
+                    "minPixels": 1160,
+                    "numLines": 0,
+                    "numPixels": 0
+                },
+                "syncSkew": {
+                    "maxLines": 1012,
+                    "minPixels": 145,
+                    "numLines": 0,
+                    "numPixels": 0
+                },
+                "syncSourceIsOutput": 0,
+                "vmode": "Composite"
+            },
+            "NV_GSYNC_DISPLAY": [
+                {
+                    "displayId": 2147881093,
+                    "isMasterable": 1,
+                    "reserved": 0,
+                    "syncState": "Master"
+                }
+            ],
+            "NV_GSYNC_STATUS_PARAMS": {
+                "RJ45_Ethernet": [
+                    0,
+                    0
+                ],
+                "RJ45_IO": [
+                    "Output",
+                    "Output"
+                ],
+                "bHouseSync": 1,
+                "houseSyncIncoming": 59.941001892089844,
+                "refreshRate": 59.941001892089844
+            },
+            "NvGSyncDeviceHandle": 3707764736
+        }
+    ]
+}
